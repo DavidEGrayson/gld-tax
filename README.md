@@ -35,6 +35,10 @@ It should output a lot of stuff, but the last part is the most useful and it sho
     cost:         1.625691
 ````
 
+Note: If you sold GLD, the cost and proceeds numbers will be sums of the numbers that come from selling the shares themselves as well as the numbers that come from the gold that the fund sold on your behalf.  I am not sure if that is a problem.
+
+You can use these numbers to fill out Form 8949.
+
 Disclaimer
 ====
 
