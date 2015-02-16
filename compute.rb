@@ -99,7 +99,7 @@ def break_into_lots(transactions)
       unsold_buys << buy
     when :sell
       quantity = tx.quantity
-      while quantity >= 0
+      while quantity > 0
         # Each iteration of this loop generates another lot until the
         # sell transaction is totally represented as lots.
 
