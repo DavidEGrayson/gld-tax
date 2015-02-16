@@ -73,7 +73,7 @@ class Lot
   end
 
   def sell_price
-    sell_transaction.price if sell_transaction
+    sell_transaction.extended_price if sell_transaction
   end
 
   def buy_date
