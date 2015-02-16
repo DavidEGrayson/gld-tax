@@ -73,7 +73,7 @@ class Lot
   end
 
   def sell_price
-    sell_transaction.extended_price if sell_transaction
+    sell_transaction.unit_price * quantity if sell_transaction
   end
 
   def buy_date
@@ -81,7 +81,7 @@ class Lot
   end
 
   def buy_price
-    buy_transaction.extended_price
+    buy_transaction.unit_price * quantity
   end
 end
 
