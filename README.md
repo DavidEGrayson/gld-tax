@@ -1,4 +1,4 @@
-This is a Ruby script that helps you calculate the taxes owed on your SPDR GLD ETF investments.  It uses FIFO accounting.  It currently only supports transactions in 2013 and 2014.  It is only for investors paying U.S. taxes.
+This is a Ruby script that helps you calculate the taxes owed on your SPDR GLD ETF investments.  It uses FIFO accounting.  It currently only supports transactions from 2010 to 2014.  It is only for investors paying U.S. taxes.
 
 To use this script, create a file called `my_transactions.csv` that contains all of your purchases and sale of GLD.  It should look like this:
 
